@@ -3,3 +3,33 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+.viewport-center {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+i.em {
+  font-size: 30px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+button {
+  padding: 10px 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+  outline: none;
+}
+
+.list-group-item {
+  overflow: scroll;
+}
+
+#month {
+  margin-right: 30px;
+}
